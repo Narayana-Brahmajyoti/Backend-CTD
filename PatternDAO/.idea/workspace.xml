@@ -4,35 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94a5d2cf-3707-49d1-8abe-3cdfadc7604f" name="Changes" comment="">
+    <list default="true" id="94a5d2cf-3707-49d1-8abe-3cdfadc7604f" name="Changes" comment="Prática pattern Dao - organizando os package execicio Farmacia">
       <change afterPath="$PROJECT_DIR$/../Integrador V/src/ontologicalClinic/dao/ConfiguracaoJDBC.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Integrador V/src/ontologicalClinic/dao/IDao.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Integrador V/src/ontologicalClinic/model/Endereco.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Integrador V/src/ontologicalClinic/model/Patient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PatternDAO.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/create.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medicamentos/dao/ConfiguracaoJDBC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medicamentos/dao/IDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medicamentos/dao/impl/MedicamentoDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medicamentos/model/Medicamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medicamentos/service/MedicamentoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/MedicamentoServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medicamento/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medicamento/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medicamento/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medicamento/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../medicamentos/medicamentos.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Integrador V/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Integrador V/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integrador V/.idea/Integrador V.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Integrador V/.idea/Integrador V.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/medicament/medicamento.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Integrador V/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integrador V/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integrador V/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Integrador V/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemplateMethodPattern/src/Pagamentos/src/model/Cartao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemplateMethodPattern/src/Pagamentos/src/model/CartaoCredito.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemplateMethodPattern/src/Pagamentos/src/model/CartaoDebito.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemplateMethodPattern/src/Pagamentos/src/model/Tipo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemplateMethodPattern/src/Pagamentos/src/service/PagamentoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemplateMethodPattern/src/Pagamentos/src/service/impl/ProcessadorCredito.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemplateMethodPattern/src/Pagamentos/src/service/impl/ProcessadorDebito.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +26,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Dg092WKCGJG5Di9sHBvJuntAvl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -65,6 +53,21 @@
     "settings.editor.selected.configurable": "preferences.packagesearch.PackageSearchGeneralConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Narayana\Documents\Nara Cursos\Backend-CTD\PatternDAO" />
+      <recent name="C:\Users\Narayana\Documents\Nara Cursos\Backend-CTD\PatternDAO\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Narayana\Documents\Nara Cursos\Backend-CTD\PatternDAO" />
+      <recent name="C:\Users\Narayana\Documents\Nara Cursos\Backend-CTD\PatternDAO\src" />
+      <recent name="C:\Users\Narayana\Documents\Nara Cursos\Backend-CTD\PatternDAO\src\medicamento\src\test" />
+      <recent name="C:\Users\Narayana\Documents\Nara Cursos\Backend-CTD\PatternDAO\src\medicamento" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="medicament.src" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.MedicamentoServiceTest">
     <configuration name="MedicamentoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PatternDAO" />
@@ -75,7 +78,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MedicamentoServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="medicamento.src.test.MedicamentoServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,6 +107,28 @@
       <option name="presentableId" value="Default" />
       <updated>1661105266827</updated>
     </task>
+    <task id="LOCAL-00001" summary="Exercício guiado Padrao DAO">
+      <created>1661106575687</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661106575687</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Prática Template Method Pattern">
+      <created>1661106731513</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661106731513</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Prática pattern Dao - organizando os package execicio Farmacia">
+      <created>1661108342891</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661108342891</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,5 +141,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Exercício guiado Padrao DAO" />
+    <MESSAGE value="Prática Template Method Pattern" />
+    <MESSAGE value="Prática pattern Dao - organizando os package execicio Farmacia" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prática pattern Dao - organizando os package execicio Farmacia" />
   </component>
 </project>
