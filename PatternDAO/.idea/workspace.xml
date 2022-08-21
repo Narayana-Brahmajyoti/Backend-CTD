@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="94a5d2cf-3707-49d1-8abe-3cdfadc7604f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Integrador V/src/ontologicalClinic/dao/ConfiguracaoJDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integrador V/src/ontologicalClinic/dao/IDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integrador V/src/ontologicalClinic/model/Endereco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integrador V/src/ontologicalClinic/model/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PatternDAO.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medicamentos/dao/ConfiguracaoJDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medicamentos/dao/IDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medicamentos/dao/impl/MedicamentoDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medicamentos/model/Medicamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medicamentos/service/MedicamentoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/MedicamentoServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Integrador V/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Integrador V/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Integrador V/.idea/Integrador V.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Integrador V/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Integrador V/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Integrador V/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Integrador V/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateMethodPattern/src/Pagamentos/src/model/Cartao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateMethodPattern/src/Pagamentos/src/model/CartaoCredito.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateMethodPattern/src/Pagamentos/src/model/CartaoDebito.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateMethodPattern/src/Pagamentos/src/model/Tipo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateMethodPattern/src/Pagamentos/src/service/PagamentoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateMethodPattern/src/Pagamentos/src/service/impl/ProcessadorCredito.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateMethodPattern/src/Pagamentos/src/service/impl/ProcessadorDebito.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2Dg092WKCGJG5Di9sHBvJuntAvl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Narayana/Documents/Nara Cursos/External Libraries Backend/H2/bin/h2-2.1.214.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.4415243",
+    "settings.editor.selected.configurable": "preferences.packagesearch.PackageSearchGeneralConfigurable"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.MedicamentoServiceTest">
+    <configuration name="MedicamentoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PatternDAO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MedicamentoServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="create.sql" type="OdpsQLRunnerConfigurationType" factoryName="MaxCompute SQL">
+      <odps_target_file>$PROJECT_DIR$/create.sql</odps_target_file>
+      <odps_output_dir>C:\Users\Narayana\AppData\Local\Temp\</odps_output_dir>
+      <job_name />
+      <odps_parameter name="odps.compiler.runmode" value="Studio" />
+      <odps_parameter name="odps.sql.type.system.odps2" value="true" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MedicamentoServiceTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94a5d2cf-3707-49d1-8abe-3cdfadc7604f" name="Changes" comment="" />
+      <created>1661105266827</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661105266827</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
