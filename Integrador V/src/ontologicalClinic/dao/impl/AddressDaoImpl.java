@@ -3,7 +3,6 @@ package ontologicalClinic.dao.impl;
 import ontologicalClinic.dao.ConfiguracaoJDBC;
 import ontologicalClinic.dao.IDao;
 import ontologicalClinic.model.Address;
-import ontologicalClinic.model.Patient;
 import org.apache.log4j.Logger;
 
 import java.sql.Connection;

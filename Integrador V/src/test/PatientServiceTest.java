@@ -12,8 +12,6 @@ import org.junit.jupiter.api.Test;
 import java.sql.SQLException;
 import java.util.Date;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class PatientServiceTest {
     ConfiguracaoJDBC configuracaoJDBC = new ConfiguracaoJDBC();
     private PatientService patientService = new PatientService(new PatientDaoImpl(configuracaoJDBC));
@@ -30,6 +28,7 @@ class PatientServiceTest {
         int id = patientService.save(new Patient("Carla", "Pereira", "SP-132.756", new Date(),addressService.save(new Address("Rua carangola", "1104", "Belo Horizonte", "Santo Antonio")).getId())).getId();
 
         System.out.println(patientService.search(id).toString());
+
 
         patientService.delete(id);
 

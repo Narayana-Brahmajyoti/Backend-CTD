@@ -7,10 +7,9 @@ import org.apache.log4j.Logger;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.sql.Statement;
 
-public class PatientDaoImpl implements IDao<Patient> {
+public class PatientDaoImpl implements IDao<Patient>{
 
     private ConfiguracaoJDBC configuracaoJDBC;
     final static Logger log = Logger.getLogger(PatientDaoImpl.class);
