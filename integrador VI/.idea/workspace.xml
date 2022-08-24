@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45b7a2be-c5da-46d7-bcc8-508bb05db684" name="Changes" comment="">
+    <list default="true" id="45b7a2be-c5da-46d7-bcc8-508bb05db684" name="Changes" comment="Integrador VI - Serializable">
       <change afterPath="$PROJECT_DIR$/../PatternDAO/out/production/PatternDAO/estoqueFarmacia/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../PatternDAO/out/production/PatternDAO/estoqueFarmacia/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../PatternDAO/out/production/PatternDAO/estoqueFarmacia/.idea/modules.xml" afterDir="false" />
@@ -13,14 +13,12 @@
       <change afterPath="$PROJECT_DIR$/../PatternDAO/out/production/PatternDAO/estoqueFarmacia/estoqueFarmacia.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../PatternDAO/out/production/PatternDAO/estoqueFarmacia/out/production/estoqueFarmacia/log4j.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../PatternDAO/out/production/PatternDAO/estoqueFarmacia/src/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/integrador VI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Empregado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Empresa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/empregados.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/integrador VI/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/integrador VI/model/Empregado.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/integrador VI/model/Empresa.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/“empregados.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Integrador V/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Integrador V/create.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Integrador V/out/production/Integrador V/test/PatientServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Integrador V/out/production/Integrador V/test/PatientServiceTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PatternDAO/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PatternDAO/.idea/workspace.xml" afterDir="false" />
@@ -28,6 +26,7 @@
       <change beforePath="$PROJECT_DIR$/../PatternDAO/out/production/PatternDAO/log4j.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../PatternDAO/out/production/PatternDAO/medicamentos/dao/ConfiguracaoJDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PatternDAO/out/production/PatternDAO/medicamentos/dao/ConfiguracaoJDBC.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PatternDAO/src/estoqueFarmacia/src/test/MedicamentoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PatternDAO/src/estoqueFarmacia/src/teste/MedicamentoServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +56,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/Narayana/Downloads/SerializacaoProf/SerializacaoProf",
     "project.structure.last.edited": "SDK Location",
     "project.structure.proportion": "0.17",
@@ -75,6 +77,21 @@
       <option name="presentableId" value="Default" />
       <updated>1661296253929</updated>
     </task>
+    <task id="LOCAL-00001" summary="Integrador VI - Serializable">
+      <created>1661301280145</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661301280145</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Integrador VI - Serializable">
+      <created>1661301366077</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661301366077</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -87,5 +104,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Integrador VI - Serializable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Integrador VI - Serializable" />
   </component>
 </project>
