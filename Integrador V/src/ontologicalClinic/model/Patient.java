@@ -1,5 +1,6 @@
 package ontologicalClinic.model;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 public class Patient {

@@ -7,6 +7,7 @@ import org.apache.log4j.Logger;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.sql.Statement;
 
 public class PatientDaoImpl implements IDao<Patient>{
@@ -33,9 +34,10 @@ public class PatientDaoImpl implements IDao<Patient>{
             if(resultSet.next())
                 patient.setId(resultSet.getInt(1));
             connection.close();
-        } catch(Exception e){
-            e.printStackTrace();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
         }
+
         return patient;
     }
 
@@ -61,8 +63,10 @@ public class PatientDaoImpl implements IDao<Patient>{
             if(patient == null){
                 throw new Exception("Patient not found!");
             }
-        }  catch(Exception e){
-            e.printStackTrace();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
         }
         return patient;
     }

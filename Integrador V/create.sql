@@ -1,19 +1,18 @@
 drop table if exists patient;
 drop table if exists address;
 create table if not exists address(
-  id int auto_increment  not null ,
-  street varchar(255) not null,
-  number varchar(255) not null,
-  city varchar(255) not null,
-  district varchar(255) not null,
-  constraint id primary key (id)
+  id int auto_increment,
+  street varchar(255),
+  number varchar(255),
+  city varchar(255),
+  district varchar(255)
 );
+
 create table if not exists patient(
-  id int auto_increment primary key not null,
-  name varchar(255) not null,
-  lastName varchar(255) not null,
-  rg varchar(20) not null,
+  id int auto_increment primary key,
+  name varchar(255),
+  lastName varchar(255),
+  rg varchar(20),
   registrationDate timestamp default current_timestamp,
-  idAddress int not null,
-  foreign key (idAddress) references address(id)
+  idAddress int not null
 );

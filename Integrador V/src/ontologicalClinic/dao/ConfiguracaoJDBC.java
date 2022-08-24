@@ -35,6 +35,4 @@ public class ConfiguracaoJDBC {
         return connection;
     }
 
-    public void reset() {
-    }
 }

@@ -10,8 +10,8 @@ public class PatientService {
         this.patientIDao = patientIDao;
     }
 
-    public Patient save(Patient paciente){
-        return patientIDao.save(paciente);
+    public Patient save(Patient patient){
+        return patientIDao.save(patient);
     }
 
     public Patient search(int id){
