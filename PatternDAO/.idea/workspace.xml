@@ -5,27 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94a5d2cf-3707-49d1-8abe-3cdfadc7604f" name="Changes" comment="Prática pattern Dao - organizando os package execicio Farmacia">
-      <change afterPath="$PROJECT_DIR$/out/production/PatternDAO/estoqueFarmacia/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PatternDAO/estoqueFarmacia/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PatternDAO/estoqueFarmacia/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PatternDAO/estoqueFarmacia/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PatternDAO/estoqueFarmacia/create.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PatternDAO/estoqueFarmacia/estoqueFarmacia.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PatternDAO/estoqueFarmacia/out/production/estoqueFarmacia/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PatternDAO/estoqueFarmacia/src/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../integrador VI/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../integrador VI/empregados.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../integrador VI/out/production/integrador VI/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../integrador VI/out/production/integrador VI/model/Empregado.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../integrador VI/out/production/integrador VI/model/Empresa.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../integrador VI/“empregados.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Integrador V/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Integrador V/create.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Integrador V/out/production/Integrador V/test/PatientServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Integrador V/out/production/Integrador V/test/PatientServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/create.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PatternDAO/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PatternDAO/medicamentos/dao/ConfiguracaoJDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternDAO/medicamentos/dao/ConfiguracaoJDBC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/estoqueFarmacia/src/test/MedicamentoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/estoqueFarmacia/src/teste/MedicamentoServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../integrador VI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../integrador VI/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
