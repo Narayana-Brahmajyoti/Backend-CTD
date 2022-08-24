@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c321c731-c6b1-4a79-8402-9b46f30fad73" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Integrador V/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Integrador V/create.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Integrador V/out/production/Integrador V/test/PatientServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Integrador V/out/production/Integrador V/test/PatientServiceTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PatternDAO/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PatternDAO/.idea/workspace.xml" afterDir="false" />
@@ -44,5 +47,16 @@
       <updated>1661303979876</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
