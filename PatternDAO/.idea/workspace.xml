@@ -5,15 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94a5d2cf-3707-49d1-8abe-3cdfadc7604f" name="Changes" comment="Prática pattern Dao - organizando os package execicio Farmacia">
+      <change afterPath="$PROJECT_DIR$/out/production/PatternDAO/estoqueFarmacia/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PatternDAO/estoqueFarmacia/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PatternDAO/estoqueFarmacia/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PatternDAO/estoqueFarmacia/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PatternDAO/estoqueFarmacia/create.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PatternDAO/estoqueFarmacia/estoqueFarmacia.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PatternDAO/estoqueFarmacia/out/production/estoqueFarmacia/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PatternDAO/estoqueFarmacia/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../integrador VI/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../integrador VI/empregados.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../integrador VI/out/production/integrador VI/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../integrador VI/out/production/integrador VI/model/Empregado.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../integrador VI/out/production/integrador VI/model/Empresa.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../integrador VI/“empregados.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Integrador V/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Integrador V/create.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integrador V/out/production/Integrador V/ontologicalClinic/dao/impl/AddressDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Integrador V/out/production/Integrador V/ontologicalClinic/dao/impl/AddressDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integrador V/out/production/Integrador V/ontologicalClinic/dao/impl/PatientDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Integrador V/out/production/Integrador V/ontologicalClinic/dao/impl/PatientDaoImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Integrador V/out/production/Integrador V/test/PatientServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Integrador V/out/production/Integrador V/test/PatientServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integrador V/src/ontologicalClinic/dao/ConfiguracaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Integrador V/src/ontologicalClinic/dao/ConfiguracaoJDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integrador V/src/ontologicalClinic/dao/impl/AddressDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Integrador V/src/ontologicalClinic/dao/impl/AddressDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integrador V/src/ontologicalClinic/dao/impl/PatientDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Integrador V/src/ontologicalClinic/dao/impl/PatientDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integrador V/src/test/PatientServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Integrador V/src/test/PatientServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/create.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PatternDAO/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PatternDAO/medicamentos/dao/ConfiguracaoJDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternDAO/medicamentos/dao/ConfiguracaoJDBC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/estoqueFarmacia/src/test/MedicamentoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/estoqueFarmacia/src/teste/MedicamentoServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../integrador VI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../integrador VI/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,23 +48,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Narayana/Documents/Nara Cursos/Backend-CTD/PatternDAO",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.4415243",
-    "settings.editor.selected.configurable": "preferences.packagesearch.PackageSearchGeneralConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Narayana/Documents/Nara Cursos/Backend-CTD/PatternDAO&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.4415243&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.packagesearch.PackageSearchGeneralConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Narayana\Documents\Nara Cursos\Backend-CTD\PatternDAO" />
@@ -67,7 +80,22 @@
       <recent name="medicament.src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MedicamentoServiceTest">
+  <component name="RunManager" selected="JUnit.MedicamentoServiceTest (1)">
+    <configuration name="MedicamentoServiceTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PatternDAO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MedicamentoServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MedicamentoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PatternDAO" />
       <extension name="coverage">
@@ -93,6 +121,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MedicamentoServiceTest (1)" />
         <item itemvalue="JUnit.MedicamentoServiceTest" />
       </list>
     </recent_temporary>

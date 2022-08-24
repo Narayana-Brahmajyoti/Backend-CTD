@@ -1,4 +1,4 @@
-package test;
+package teste;
 
 import medicamentos.dao.ConfiguracaoJDBC;
 import medicamentos.dao.impl.MedicamentoDaoImpl;
