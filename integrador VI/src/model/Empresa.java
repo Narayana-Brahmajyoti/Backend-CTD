@@ -8,7 +8,7 @@ import java.util.List;
 public class Empresa implements Serializable {
     private String razaoSocial;
     private String cnpj;
-    List<Empregado> empregados;
+    ArrayList<Empregado> empregados;
 
     public Empresa(String razaoSocial, String cnpj) {
         this.razaoSocial = razaoSocial;
@@ -29,6 +29,14 @@ public class Empresa implements Serializable {
 
     public void setCnpj(String cnpj) {
         this.cnpj = cnpj;
+    }
+
+    public ArrayList<Empregado> getEmpregados() {
+        return empregados;
+    }
+
+    public void setEmpregados(ArrayList<Empregado> empregados) {
+        this.empregados = empregados;
     }
 }
 

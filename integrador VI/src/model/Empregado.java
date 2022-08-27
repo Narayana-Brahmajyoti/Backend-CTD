@@ -6,9 +6,9 @@ public class Empregado implements Serializable {
     private String nome;
     private String sobreNome;
     private String rg;
-    private Double salario;
+    private double salario;
 
-    public Empregado(String nome, String sobreNome, String rg, Double salario) {
+    public Empregado(String nome, String sobreNome, String rg, double salario) {
         this.nome = nome;
         this.sobreNome = sobreNome;
         this.rg = rg;
@@ -39,21 +39,12 @@ public class Empregado implements Serializable {
         this.rg = rg;
     }
 
-    public Double getSalario() {
+    public double getSalario() {
         return salario;
     }
 
-    public void setSalario(Double salario) {
+    public void setSalario(double salario) {
         this.salario = salario;
     }
 
-    @Override
-    public String toString() {
-        return "Empregado{" +
-                "nome='" + nome + '\'' +
-                ", sobreNome='" + sobreNome + '\'' +
-                ", rg='" + rg + '\'' +
-                ", salario=" + salario +
-                '}';
-    }
 }
