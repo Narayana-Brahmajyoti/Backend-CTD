@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45b7a2be-c5da-46d7-bcc8-508bb05db684" name="Changes" comment="Alterações na pasta Padrao DAO">
-      <change beforePath="$PROJECT_DIR$/../Integrador V/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Integrador V/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntegradorIV/src/Main.java" beforeDir="false" />
+    <list default="true" id="45b7a2be-c5da-46d7-bcc8-508bb05db684" name="Changes" comment="Adicionado no main o for para mostrar os dados da empresa junto com o funcionário, para este projeto utilizei a interface Serializable para transferencia de arquivos entre classes.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/empregados.txt" beforeDir="false" afterPath="$PROJECT_DIR$/empregados.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/integrador VI/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/integrador VI/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/integrador VI/model/Empregado.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/integrador VI/model/Empregado.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/integrador VI/model/Empresa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/integrador VI/model/Empresa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Empregado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Empregado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Empresa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../integrador VII/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../integrador VII/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661302441382</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adicionado no main o for para mostrar os dados da empresa junto com o funcionário, para este projeto utilizei a interface Serializable para transferencia de arquivos entre classes.">
+      <created>1661604590957</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661604590957</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +113,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Integrador VI - Serializable" />
     <MESSAGE value="Alterações na pasta Padrao DAO" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alterações na pasta Padrao DAO" />
+    <MESSAGE value="Adicionado no main o for para mostrar os dados da empresa junto com o funcionário, para este projeto utilizei a interface Serializable para transferencia de arquivos entre classes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionado no main o for para mostrar os dados da empresa junto com o funcionário, para este projeto utilizei a interface Serializable para transferencia de arquivos entre classes." />
   </component>
 </project>
