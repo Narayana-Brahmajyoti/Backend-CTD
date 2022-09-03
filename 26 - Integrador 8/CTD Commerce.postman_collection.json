@@ -1,0 +1,138 @@
+{
+	"variables": [],
+	"info": {
+		"name": "CTD Commerce",
+		"_postman_id": "38e28034-e701-d98d-2037-cd1fea88d02d",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Product",
+			"description": "",
+			"item": [
+				{
+					"name": "Save product",
+					"request": {
+						"url": "http://localhost:8080/product",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"title\": \"Play Station 5\",\n\t\"price\": 4800.00,\n\t\"description\": \"Novo vídeo game da Sony\",\n\t\"image\": \"https://sm.ign.com/ign_br/screenshot/default/ps5-5-motivos-para-comprar-o-console-de-nova-geracao-da-sony_741k.jpg\",\n\t\"category\": \"Eletrônico\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Update product",
+					"request": {
+						"url": "http://localhost:8080/product/1",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"title\": \"Play Station 5\",\n\t\"price\": 4800.00,\n\t\"description\": \"Novo vídeo game da Sony\",\n\t\"image\": \"https://sm.ign.com/ign_br/screenshot/default/ps5-5-motivos-para-comprar-o-console-de-nova-geracao-da-sony_741k.jpg\",\n\t\"category\": \"Eletrônico\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Find all products",
+					"request": {
+						"url": "http://localhost:8080/product",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Find product by id",
+					"request": {
+						"url": "http://localhost:8080/product/1",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Delete product by id",
+					"request": {
+						"url": "http://localhost:8080/product/1",
+						"method": "DELETE",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Category",
+			"description": "",
+			"item": [
+				{
+					"name": "Save category",
+					"request": {
+						"url": "http://localhost:8080/category",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"Eletrônico\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Find all categories",
+					"request": {
+						"url": "http://localhost:8080/category",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Find category by id",
+					"request": {
+						"url": "http://localhost:8080/category/1",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
