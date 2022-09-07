@@ -1,46 +1,18 @@
-package com.example.Checkpoint2.entity;
+package com.example.Checkpoint2.entity.dto;
+
+import com.example.Checkpoint2.entity.Address;
+import com.example.Checkpoint2.entity.Dentist;
 
 import java.util.Date;
 
-public class Patient {
+public class PatientDTO {
 
-    private Integer id;
     private String name;
     private String lastName;
     private String rg;
     private Address address;
     private Date dateDischarge;
-    private  Dentist dentist; // Integer idDentist;
-
-    public Patient(Integer id, String name, String lastName, String rg, Address address, Date dateDischarge, Dentist dentist) {
-        this.id = id;
-        this.name = name;
-        this.lastName = lastName;
-        this.rg = rg;
-        this.address = address;
-        this.dateDischarge = dateDischarge;
-        this.dentist = dentist;
-    }
-
-    public Patient(String name, String lastName, String rg, Address address, Date dateDischarge, Dentist dentist) {
-        this.name = name;
-        this.lastName = lastName;
-        this.rg = rg;
-        this.address = address;
-        this.dateDischarge = dateDischarge;
-        this.dentist = dentist;
-    }
-
-    public Patient() {
-    }
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
+    private Dentist dentist;
 
     public String getName() {
         return name;

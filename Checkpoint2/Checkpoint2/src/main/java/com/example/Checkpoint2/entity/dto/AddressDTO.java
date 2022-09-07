@@ -1,8 +1,7 @@
-package com.example.Checkpoint2.entity;
+package com.example.Checkpoint2.entity.dto;
 
-public class Address {
+public class AddressDTO {
 
-    private Integer id;
     private String street;
     private String number;
     private String complement;
@@ -10,35 +9,6 @@ public class Address {
     private String city;
     private String state;
 
-    public Address(Integer id, String street, String number, String complement, String district, String city, String state) {
-        this.id = id;
-        this.street = street;
-        this.number = number;
-        this.complement = complement;
-        this.district = district;
-        this.city = city;
-        this.state = state;
-    }
-
-    public Address(String street, String number, String complement, String district, String city, String state) {
-        this.street = street;
-        this.number = number;
-        this.complement = complement;
-        this.district = district;
-        this.city = city;
-        this.state = state;
-    }
-
-    public Address() {
-    }
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
 
     public String getStreet() {
         return street;

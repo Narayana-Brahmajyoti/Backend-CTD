@@ -1,40 +1,16 @@
-package com.example.Checkpoint2.entity;
+package com.example.Checkpoint2.entity.dto;
+
+import com.example.Checkpoint2.entity.Patient;
 
 import java.util.List;
 
-public class Dentist {
+public class DentistDTO {
 
-    private Integer id;
     private String name;
     private String lastName;
     private String enroll;
     private List<Patient> patientList;
 
-    public Dentist(Integer id, String name, String lastName, String enroll, List<Patient> patientList) {
-        this.id = id;
-        this.name = name;
-        this.lastName = lastName;
-        this.enroll = enroll;
-        this.patientList = patientList;
-    }
-
-    public Dentist(String name, String lastName, String enroll, List<Patient> patientList) {
-        this.name = name;
-        this.lastName = lastName;
-        this.enroll = enroll;
-        this.patientList = patientList;
-    }
-
-    public Dentist() {
-    }
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
 
     public String getName() {
         return name;
