@@ -2,6 +2,8 @@ package com.dh.felinos.model;
 
 import org.apache.log4j.Logger;
 
+import java.util.logging.Logger;
+
 public class Leao {
     private static final Logger logger = Logger.getLogger(Leao.class);
 

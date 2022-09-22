@@ -1,14 +1,13 @@
 package com.example.Checkpoint2.entity.dto;
 
-import com.example.Checkpoint2.entity.Dentist;
-import com.example.Checkpoint2.entity.Patient;
+import com.example.Checkpoint2.entity.DentistEntity;
 
 import java.util.Date;
 
 public class ConsultDTO {
 
     private Patient patient;
-    private Dentist dentist;
+    private DentistEntity dentist;
     private Date dateHourConsult;
 
     public Patient getPatient() {
@@ -19,11 +18,11 @@ public class ConsultDTO {
         this.patient = patient;
     }
 
-    public Dentist getDentist() {
+    public DentistEntity getDentist() {
         return dentist;
     }
 
-    public void setDentist(Dentist dentist) {
+    public void setDentist(DentistEntity dentist) {
         this.dentist = dentist;
     }
 

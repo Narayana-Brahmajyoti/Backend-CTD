@@ -1,7 +1,7 @@
 package com.example.Checkpoint2.repository;
 
-import com.example.Checkpoint2.entity.Address;
-import com.example.Checkpoint2.entity.Patient;
+import com.example.Checkpoint2.entity.AddressEntity;
+import com.example.Checkpoint2.entity.PatientEntity;
 
 import java.util.HashMap;
 import java.util.Map;

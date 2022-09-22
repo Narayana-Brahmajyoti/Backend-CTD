@@ -1,7 +1,7 @@
 package com.example.Checkpoint2.entity.dto;
 
-import com.example.Checkpoint2.entity.Address;
-import com.example.Checkpoint2.entity.Dentist;
+import com.example.Checkpoint2.entity.AddressEntity;
+import com.example.Checkpoint2.entity.DentistEntity;
 
 import java.util.Date;
 
@@ -12,7 +12,7 @@ public class PatientDTO {
     private String rg;
     private Address address;
     private Date dateDischarge;
-    private Dentist dentist;
+    private DentistEntity dentist;
 
     public String getName() {
         return name;
@@ -54,11 +54,11 @@ public class PatientDTO {
         this.dateDischarge = dateDischarge;
     }
 
-    public Dentist getDentist() {
+    public DentistEntity getDentist() {
         return dentist;
     }
 
-    public void setDentist(Dentist dentist) {
+    public void setDentist(DentistEntity dentist) {
         this.dentist = dentist;
     }
 }

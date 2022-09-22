@@ -1,6 +1,6 @@
 package com.example.Checkpoint2.entity.dto;
 
-import com.example.Checkpoint2.entity.Patient;
+import com.example.Checkpoint2.entity.PatientEntity;
 
 import java.util.List;
 
