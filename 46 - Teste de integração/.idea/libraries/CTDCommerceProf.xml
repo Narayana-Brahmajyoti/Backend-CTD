@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="CTDCommerceProf">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/CTDCommerceProf.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
